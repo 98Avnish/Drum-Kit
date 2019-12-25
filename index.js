@@ -14,7 +14,7 @@ document.addEventListener("keydown", function(event) {
 
 function makeSound(key) {
   //  console.log(key);
-  addAnimation(key);
+  
   switch (key) {
     case "w":
       var audio = new Audio('sounds/tom-1.mp3');
@@ -46,8 +46,9 @@ function makeSound(key) {
       break;
     default:
       console.log(key);
-
+ 
   }
+  addAnimation(key);
 }
 
 function addAnimation(key) {
