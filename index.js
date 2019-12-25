@@ -58,5 +58,5 @@ function addAnimation(key) {
   setTimeout(function() {
     button.classList.remove("pressed");
     //    console.log("Animation3---> "+key+" "+button.classList);
-  }, 300);
+  }, 150);
 }
